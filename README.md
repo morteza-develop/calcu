@@ -1,4 +1,5 @@
-# calcu electron desktop app
+# calcu App
+# electron desktop app
 
 npm i
 
