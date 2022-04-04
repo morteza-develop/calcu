@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>calcu</title>
+  </head>
+  <body>
+    <div class="container content">
+
+      <div class="row m-4">
+        <h1 class="d-flex justify-content-center">Wide Price Calculator</h1>
+      </div>
+
+      <div class="row m-4 d-flex justify-content-center">
+        <div class="form-group col-md-3 text-center">
+          <label class="m-3" for="usr">میزان شارژ</label>
+          <input type="number" class="form-control" id="credit" onkeyup="chalenged()" onchange="fastchange()">
+        </div>
+      </div>
+
+      <hr/>
+
+      <div class="row m-4 d-flex justify-content-around text-center">
+        <div class="col-md-3">
+          <label for="">هزینه شارژ</label>
+          <input type="text" class="form-control mt-4" id="creditsum" disabled>
+        </div>
+        <div class="col-md-3">
+          <label for="">تبصره 19</label>
+          <input type="text" class="form-control mt-4" id="remark" disabled>
+        </div>
+        <div class="col-md-3">
+          <label for="">مالیات</label>
+          <input type="text" class="form-control mt-4" id="tax" disabled>
+        </div>
+      </div>
+
+      <hr/>
+
+      <div class="row m-4 d-flex justify-content-around text-center">
+        <div class="col-md-4">
+          <label for="">رنج</label>
+          <input type="text" class="form-control mt-4" id="rangnumber" disabled>
+        </div>
+        <div class="col-md-4">
+          <label for="">هزینه کل</label>
+          <input type="text" class="form-control mt-4" id="total" disabled>
+        </div>
+      </div>
+
+      <hr/>
+
+      <div class="row mt-5 p-3 justify-content-start">
+        <p class="comment"><span>نکته 1 : </span>تمامی قیمتها به ریال می باشد</p>
+        <p class="comment"><span>نکته 2 : </span>برای رفرش صفحه از کلیک های ctrl + R استفاده شود</p>
+      </div>
+
+    </div>
+
+    <script src="./rendered.js"></script>
+  </body>
+</html>
