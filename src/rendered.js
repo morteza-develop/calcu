@@ -4,17 +4,17 @@ function chalenged(){
     const remark = 30;
 
     if (credit <= 11000){
-      range = 220
+      range = 380
     }else if (credit > 11000 & credit <= 31000) {
-      range = 210
+      range = 370
     }else if (credit > 31000 & credit <= 101000) {
-      range = 200
+      range = 360
     }else if (credit > 101000 & credit <= 501000) {
-      range = 190
+      range = 350
     }else if (credit > 501000 & credit <= 2000000) {
-      range = 180
+      range = 340
     }else if (credit > 2000000) {
-      range = 170
+      range = 330
     }
 
     
@@ -33,17 +33,17 @@ function chalenged(){
     const remark = 30;
 
     if (credit <= 11000){
-      range = 220
+      range = 380
     }else if (credit > 11000 & credit <= 31000) {
-      range = 210
+      range = 370
     }else if (credit > 31000 & credit <= 101000) {
-      range = 200
+      range = 360
     }else if (credit > 101000 & credit <= 501000) {
-      range = 190
+      range = 350
     }else if (credit > 501000 & credit <= 2000000) {
-      range = 180
+      range = 340
     }else if (credit > 2000000) {
-      range = 170
+      range = 330
     }
 
     
